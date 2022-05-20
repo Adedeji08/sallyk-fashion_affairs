@@ -1,0 +1,200 @@
+@media screen and (min-width: 855px) {
+.form{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 45% !important;
+    line-height: 40px !important;
+}
+   
+  .label{
+    display: block !important;
+    font-size: medium !important;
+    color: black !important;
+    padding: 5px !important;
+    opacity: 0.5;
+  }
+   
+  .input{
+    font-size: larger !important;
+    padding: 5px !important;
+    margin: 2px !important;
+    width: 100% !important;
+    border: 1px solid var(--Dark-grayish-blue) !important;
+    border-radius: 7px !important;
+  }
+  .btn-btn{
+    color: white !important;
+    background-color: var(--Sky-blue) ;
+    border-color: var(--Sky-blue) !important;
+    border-radius: 5px !important;
+    font-size: larger !important;
+    display: block !important;
+    padding: 5px !important;
+    margin: 10px auto !important;
+    cursor: pointer !important;
+  }
+   
+  .messages{
+    display: flex !important;
+    justify-content: center !important;
+  }
+   
+  .error{
+    display: block;
+    background-color: var(--Very-vark-blue);
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+  }
+   
+  .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+  }
+  .reg{
+      text-align: center !important;
+      line-height: 100px !important;
+      color: var(--Dark-grayish-blue) !important;
+      opacity: 0.6 !important;
+  }
+}
+.show-password {
+  color: #919191;
+}
+.btn {
+  border: 0;
+  height: 32px;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    display: block !important;
+    cursor: pointer !important;
+    color: white !important;
+    padding: 5px !important;
+    margin: 10px auto !important;
+
+}
+.password-group {
+  
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.password-group .show-password {
+  position: absolute;
+  top: 35px;
+  height: 0px !important;
+  padding: 6px;
+  margin-top: 18px;
+  right: 2px;
+}
+.fa-eye-slash{
+  color: var(--Sky-blue);
+}
+.fa-eye{
+  color: var(--Sky-blue);
+}
+.passwordBars {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 25px;
+}
+.pBar {
+  width: 100px;
+  margin: 2px;
+  height: 8px;
+  left: 748px;
+  top: 454px;
+  border-radius: 100px;
+}
+
+
+@media screen and (max-width: 854px){
+  .form{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 90% !important;
+    line-height: 50px !important;
+}
+   
+  .label{
+    display: block !important;
+    font-size:medium !important;
+    color: black !important;
+    padding: 5px !important;
+    opacity: 0.5;
+  }
+   
+  .input{
+    font-size: larger !important;
+    padding: 5px !important;
+    margin: 2px !important;
+    width: 100% !important;
+    border: 1px solid var(--Dark-grayish-blue) !important;
+    border-radius: 7px !important;
+  }
+  .btn-btn{
+    color: white !important;
+    background-color: var(--Sky-blue) !important;
+    border-color: var(--Sky-blue) !important;
+    border-radius: 5px !important;
+    font-size: medium !important;
+    display: block !important;
+    padding: 5px !important;
+    margin: 10px auto !important;
+    cursor: pointer !important;
+    width: 100%;
+  }
+  .btn {
+    border: 0;
+    height: 32px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      display: block !important;
+      cursor: pointer !important;
+      color: white !important;
+      padding: 5px !important;
+      margin: 20px auto !important;
+  
+  }
+   
+  .messages{
+    display: flex !important;
+    justify-content: center !important;
+  }
+   
+  .error{
+    display: block;
+    background-color: var(--Very-vark-blue);
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+  }
+   
+  .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+  }
+  .reg{
+      text-align: center !important;
+      line-height: 100px !important;
+      color: var(--Dark-grayish-blue) !important;
+      opacity: 0.6 !important;
+  }
+}
